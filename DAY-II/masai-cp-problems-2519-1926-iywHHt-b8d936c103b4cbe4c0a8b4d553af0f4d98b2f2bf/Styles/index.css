@@ -1,0 +1,308 @@
+/* navbar CSS */
+* {
+  font-family: "PT Sans", sans-serif;
+}
+
+nav > div > h1,
+nav > div > h3 {
+  margin-left: 20px;
+}
+nav {
+  height: 60px;
+  width: 100%;
+  font-size: larger;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: #fff;
+}
+
+nav > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+  font-size: 25px;
+}
+
+nav > div > div {
+  display: flex;
+  align-items: center;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+}
+
+
+body, h1, h2, h3, p, ul, ol, li, form, button {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.logo-wrapper-conatiner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-wrapper-conatiner-image{
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.container {
+  width: 45%;
+  margin: 1rem auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 370px;
+  margin-top: 4rem;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #E8F0FE
+}
+
+.input:focus{
+  outline: none;
+}
+
+button {
+  display: inline-block;
+  background-color: #1A56DB;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase
+}
+
+button:hover {
+  background-color: #1845a7;
+}
+
+#error-message {
+  color: #d9534f;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.img-container-wrapper{
+  background-image: url('https://cdn.shopify.com/s/files/1/1454/5188/files/Desktop_23_c81b511b-62ec-4fe0-b310-923d27deddd2.jpg?v=1687156859');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 68vh; 
+  margin: 0 .5rem;
+
+}
+
+
+
+#cartCount{
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+
+#bodyCareContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+#faceCareContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+#hairCareContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+#cartContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  width: 300px;
+  height: 420px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+}
+
+.product-card-image{
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.product-details {
+  padding: 15px;
+}
+
+.product-details h3 {
+  font-size: .9rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.product-details p{
+  font-size: .9rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.main-price-span {
+  font-size: 1rem;
+  margin: 3rem;
+}
+
+.main-strikeoff-price-span{
+  text-decoration: line-through;
+  font-size: 1rem;
+  color: red;
+}
+
+
+.add-to-cart-btn {
+  background-color: #80CE80;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  width: 95%;
+  margin-top: 1rem;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #45a049;
+}
+
+#billContainer{
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-weight: 600;
+}
+
+#totalQuantity{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+#couponInput{
+  width: 250px;
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+
+#couponbutton{
+  border: 1px solid lightgreen;
+  background-color: #80CE80;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 2px;
+  margin-right: 2rem;
+}
+
+#couponbutton-remove{
+  background-color: #DC7171;
+  color: #fff;
+  border-radius: 2px;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  border-radius: 7px;
+  width: 95%;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+#couponbutton-remove:hover{
+  background-color: #d9534f;
+}
+
+.invalid-text{
+  color: red;
+  font-size: 1.4rem;
+  letter-spacing: .1rem;
+}
+
+.discount-text{
+  color: #45a049;
+  font-size: 1.2rem;
+}
+
+#success-message{
+  color: #45a049;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
