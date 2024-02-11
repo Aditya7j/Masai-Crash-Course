@@ -1,0 +1,92 @@
+.main-wrapper-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fff;
+  }
+  
+  .big-circle {
+    width: 150px;
+    height: 150px;
+    background-color: #AE2A60;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .small-circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transition: transform .5s ease-in-out;
+  }
+  
+  .circle1 { background-color: #e74c3c;
+    transform: translate(65px,65px);
+    transition: transform .7s ease-in-out;
+
+
+}
+  .circle2 { background-color: #2ecc71;
+    transform: translate(65px,65px);
+
+}
+  .circle3 { background-color: #3498db;
+    transform: translate(65px,65px);
+    transition: transform .7s ease-in-out;
+}
+  .circle4 { background-color: #f39c12;
+    transform: translate(65px,65px);
+
+}
+  .circle5 { background-color: #9b59b6;
+    transform: translate(65px,65px);
+
+}
+  .circle6 { background-color: #07f1ca;
+    transform: translate(65px,65px);
+
+}
+  .circle7 { background-color: yellow;
+    transform: translate(65px,65px);
+    transition: transform .7s ease-in-out;
+
+
+}
+  .circle8 { background-color: lightpink;
+    transform: translate(65px,65px);
+
+
+}
+  
+  .big-circle:hover .small-circle:nth-child(1) { transform: translate(60px, -100px) scale(.7); }
+  .big-circle:hover .small-circle:nth-child(2) { transform: translate(185px, -40px) scale(.7); }
+  .big-circle:hover .small-circle:nth-child(3) { transform: translate(225px, 70px) scale(.7); }
+  .big-circle:hover .small-circle:nth-child(4) { transform: translate(185px, 180px) scale(.7); }
+  .big-circle:hover .small-circle:nth-child(5) { transform: translate(60px, 225px) scale(.7); }
+  .big-circle:hover .small-circle:nth-child(6) { transform: translate(-70px, 180px) scale(.7); }
+  .big-circle:hover .small-circle:nth-child(7) { transform: translate(-100px, 70px) scale(.7); }
+  .big-circle:hover .small-circle:nth-child(8) { transform: translate(-70px, -40px) scale(.7); }
+  
+  .paid-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    text-transform: lowercase;
+  }
+  
+  .big-circle:hover .paid-text {
+    opacity: 1;
+  }
+  

@@ -1,0 +1,127 @@
+.main-flex-wrapper{
+    background-color: yellow;
+    padding: 1rem;
+    flex: 1;
+}
+
+.main-flex-inner-wrapper{
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: .5rem;
+    background-color: #e2dfdf;
+    margin-bottom: 1rem;
+}
+
+.main-flex-inner-wrapper-one{
+    flex: .1;
+    color: #fff;
+}
+
+.main-flex-img{
+    width: 100%;
+    object-fit: fill;
+    height: 100px;
+}
+
+.main-flex-inner-wrapper-one p{
+    margin: 0;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.main-flex-inner-wrapper-two{
+    flex: .9;
+    line-height: .8;
+}
+
+.main-flex-inner-wrapper-img{
+    width: 100%;
+    height: 70px;
+    object-fit: cover;
+}
+
+
+.main-flex-inner-wrapper-two h3{
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px dotted #000;
+    margin-top: 0px;
+    padding: .1rem;
+    font-weight: 900;
+    letter-spacing: .2rem;
+    text-transform: capitalize;
+}
+
+.main-flex-inner-wrapper-two p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px dotted #000;
+    margin-top: 0px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: .1rem;
+
+}
+
+.main-flex-inner-wrapper-two a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px dotted #000;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: .1rem;
+    color: blue;
+}
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .main-flex-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .main-flex-inner-wrapper {
+        flex: 0 0 calc(48% - 0.6rem);
+        margin-bottom: 1rem;
+    }
+
+    .main-flex-inner-wrapper-one {
+        width: 100%;
+    }
+
+    .main-flex-inner-wrapper-two {
+        width: 100%;
+    }
+
+    .main-flex-inner-wrapper{
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 590px) {
+    .main-flex-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+ 
+
+    .main-flex-inner-wrapper-one {
+        width: 100%;
+    }
+
+    .main-flex-inner-wrapper-two {
+        width: 100%;
+    }
+
+    .main-flex-inner-wrapper{
+        flex-direction: column;
+    }
+}
+
+
+

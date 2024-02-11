@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-wrapper-container {
+    background-color: #FDC53C;
+    margin: 0;
+    padding: 0;
+    width: 99vw;
+    height: 97vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    gap: 35rem;
+}
+
+.text-wrapper-container {
+    position: relative;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    color: white; 
+    animation: slideText 4s linear infinite, changeColor 4s linear infinite;
+}
+
+.icon-wrapper-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+
+.icon-wrapper-inner-container {
+    width: 50px;
+    height: 50px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgb(238, 236, 236);
+    position: absolute;
+    opacity: .7;
+}
+
+.icon-wrapper-inner-container:nth-child(1) {
+    animation: rotateNumber 12s linear infinite 0s;
+}
+
+.icon-wrapper-inner-container:nth-child(2) {
+    animation: rotateNumber 12s linear infinite 2s; 
+}
+
+.icon-wrapper-inner-container:nth-child(3) {
+    animation: rotateNumber 12s linear infinite 4s;
+}
+
+.icon-wrapper-inner-container:nth-child(4) {
+    animation: rotateNumber 12s linear infinite 6s;
+}
+
+.icon-wrapper-inner-container:nth-child(5) {
+    animation: rotateNumber 12s linear infinite 8s;
+}
+
+.icon-wrapper-inner-container:nth-child(6) {
+    animation: rotateNumber 12s linear infinite 10s;
+}
+
+.icon-wrapper-inner-container:nth-child(7) {
+    animation: rotateNumber 12s linear infinite 12s;
+}
+
+
+
+@keyframes slideText {
+    to {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes changeColor {
+    0% {
+        color: white;
+    }
+    75% {
+        color: gray; 
+    }
+    100% {
+        color: black; 
+    }
+}
+
+
+@keyframes rotateNumber {
+    0% {
+        transform: rotate(0deg) translateX(150px) rotate(0deg);
+        opacity: 1; 
+    }
+    100% {
+        transform: rotate(360deg) translateX(150px) rotate(-360deg);
+        opacity: 1; 
+    }
+}
+
+
+.fas{
+    font-size: 1.2rem;
+    
+}
