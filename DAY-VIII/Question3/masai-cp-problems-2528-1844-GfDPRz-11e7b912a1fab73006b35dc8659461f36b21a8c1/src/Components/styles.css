@@ -1,0 +1,74 @@
+.recipe-list{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.loading-text{
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: rebeccapurple;
+    text-align: center;
+}
+
+.recipe-card{
+    flex: 1;
+    padding: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    margin-top: .5rem;
+    border-radius: 7px;
+    line-height: .9;
+}
+
+.recip-image{
+    width: 150px;
+    height: 150px;
+    object-fit: fill;
+    border-radius: 7px;
+}
+
+
+.recipe-card h1{
+    font-size: 1.2rem;
+}
+
+.recipe-veg{
+    color: green;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+
+.recipe-nonveg{
+    color: red;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.recipe-card h6{
+    font-size: .8rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.recipe-card button{
+    padding: 8px;
+    border-radius: 7px;
+    background-color: #947549;
+    color: #fff;
+    font-weight: 900;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+#single-card{
+    width: 500px;
+    height: 500px;
+    line-height: .5;
+    margin: 0 auto;
+}

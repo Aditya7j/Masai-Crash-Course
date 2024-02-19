@@ -1,0 +1,491 @@
+{
+  "states": [
+    {
+      "id": 4,
+      "stateName": "Goa",
+      "population": 154243,
+      "GDPRanking": 23,
+      "image": "https://source.unsplash.com/500x300?Goa",
+      "language": "Konkani",
+      "capital": "Panaji",
+      "region": "West India",
+      "tourismPlaces": [
+        "Baga Beach",
+        "Dudhsagar Waterfalls",
+        "Old Goa"
+      ]
+    },
+    {
+      "id": 5,
+      "stateName": "Tamil Nadu",
+      "population": 77841267,
+      "GDPRanking": 2,
+      "image": "https://source.unsplash.com/500x300?TamilNadu",
+      "language": "Tamil",
+      "capital": "Chennai",
+      "region": "South India",
+      "tourismPlaces": [
+        "Chennai",
+        "Madurai",
+        "Ooty"
+      ]
+    },
+    {
+      "id": 6,
+      "stateName": "West Bengal",
+      "population": 91276115,
+      "GDPRanking": 6,
+      "image": "https://source.unsplash.com/500x300?WestBengal",
+      "language": "Bengali",
+      "capital": "Kolkata",
+      "region": "East India",
+      "tourismPlaces": [
+        "Darjeeling",
+        "Sundarbans",
+        "Kolkata"
+      ]
+    },
+    {
+      "id": 7,
+      "stateName": "Madhya Pradesh",
+      "population": 85358965,
+      "GDPRanking": 10,
+      "image": "https://source.unsplash.com/500x300?MadhyaPradesh",
+      "language": "Hindi",
+      "capital": "Bhopal",
+      "region": "Central India",
+      "tourismPlaces": [
+        "Khajuraho",
+        "Sanchi",
+        "Kanha National Park"
+      ]
+    },
+    {
+      "id": 8,
+      "stateName": "Uttar Pradesh",
+      "population": 224979000,
+      "GDPRanking": 5,
+      "image": "https://source.unsplash.com/500x300?UttarPradesh",
+      "language": "Hindi",
+      "capital": "Lucknow",
+      "region": "North India",
+      "tourismPlaces": [
+        "Taj Mahal",
+        "Varanasi",
+        "Lucknow"
+      ]
+    },
+    {
+      "id": 9,
+      "stateName": "Telangana",
+      "population": 35193978,
+      "GDPRanking": 9,
+      "image": "https://source.unsplash.com/500x300?Telangana",
+      "language": "Telugu",
+      "capital": "Hyderabad",
+      "region": "South India",
+      "tourismPlaces": [
+        "Charminar",
+        "Golconda Fort",
+        "Hyderabad"
+      ]
+    },
+    {
+      "id": 10,
+      "stateName": "Kerala",
+      "population": 35699443,
+      "GDPRanking": 11,
+      "image": "https://source.unsplash.com/500x300?Kerala",
+      "language": "Malayalam",
+      "capital": "Thiruvananthapuram",
+      "region": "South India",
+      "tourismPlaces": [
+        "Kochi",
+        "Alappuzha",
+        "Munnar"
+      ]
+    },
+    {
+      "id": 11,
+      "stateName": "Assam",
+      "population": 35607039,
+      "GDPRanking": 17,
+      "image": "https://source.unsplash.com/500x300?Assam",
+      "language": "Assamese",
+      "capital": "Dispur",
+      "region": "North East India",
+      "tourismPlaces": [
+        "Kaziranga National Park",
+        "Guwahati",
+        "Majuli"
+      ]
+    },
+    {
+      "id": 12,
+      "stateName": "Jharkhand",
+      "population": 38593948,
+      "GDPRanking": 19,
+      "image": "https://source.unsplash.com/500x300?Jharkhand",
+      "language": "Hindi",
+      "capital": "Ranchi",
+      "region": "East India",
+      "tourismPlaces": [
+        "Dhanbad",
+        "Bokaro Steel City",
+        "Jamshedpur"
+      ]
+    },
+    {
+      "id": 13,
+      "stateName": "Chhattisgarh",
+      "population": 29969272,
+      "GDPRanking": 18,
+      "image": "https://source.unsplash.com/500x300?Chhattisgarh",
+      "language": "Chhattisgarhi",
+      "capital": "Raipur",
+      "region": "Central India",
+      "tourismPlaces": [
+        "Bastar",
+        "Raipur",
+        "Jagdalpur"
+      ]
+    },
+    {
+      "id": 14,
+      "stateName": "Arunachal Pradesh",
+      "population": 1382611,
+      "GDPRanking": 31,
+      "image": "https://source.unsplash.com/500x300?ArunachalPradesh",
+      "language": "English",
+      "capital": "Itanagar",
+      "region": "North East India",
+      "tourismPlaces": [
+        "Tawang",
+        "Ziro",
+        "Bomdila"
+      ]
+    },
+    {
+      "id": 15,
+      "stateName": "Manipur",
+      "population": 3091545,
+      "GDPRanking": 27,
+      "image": "https://source.unsplash.com/500x300?Manipur",
+      "language": "Meiteilon",
+      "capital": "Imphal",
+      "region": "North East India",
+      "tourismPlaces": [
+        "Loktak Lake",
+        "Kangla Fort",
+        "Imphal"
+      ]
+    },
+    {
+      "id": 16,
+      "stateName": "Meghalaya",
+      "population": 3366710,
+      "GDPRanking": 26,
+      "image": "https://source.unsplash.com/500x300?Meghalaya",
+      "language": "Khasi, Garo, English",
+      "capital": "Shillong",
+      "region": "North East India",
+      "tourismPlaces": [
+        "Shillong",
+        "Cherrapunji",
+        "Mawlynnong"
+      ]
+    },
+    {
+      "id": 17,
+      "stateName": "Mizoram",
+      "population": 1239244,
+      "GDPRanking": 32,
+      "image": "https://source.unsplash.com/500x300?Mizoram",
+      "language": "Mizo, English",
+      "capital": "Aizawl",
+      "region": "North East India",
+      "tourismPlaces": [
+        "Aizawl",
+        "Champhai",
+        "Lunglei"
+      ]
+    },
+    {
+      "id": 18,
+      "stateName": "Punjab",
+      "population": 30141373,
+      "GDPRanking": 10,
+      "image": "https://source.unsplash.com/500x300?Punjab",
+      "language": "Punjabi",
+      "capital": "Chandigarh",
+      "region": "North India",
+      "tourismPlaces": [
+        "Amritsar",
+        "Golden Temple",
+        "Jallianwala Bagh"
+      ]
+    },
+    {
+      "id": 19,
+      "stateName": "Sikkim",
+      "population": 689141,
+      "GDPRanking": 28,
+      "image": "https://source.unsplash.com/500x300?Sikkim",
+      "language": "Nepali",
+      "capital": "Gangtok",
+      "region": "North East India",
+      "tourismPlaces": [
+        "Gurudongmar Lake",
+        "Nathula Pass",
+        "Rumtek Monastery"
+      ]
+    },
+    {
+      "id": 20,
+      "stateName": "Andhra Pradesh",
+      "population": 53903393,
+      "GDPRanking": 8,
+      "image": "https://source.unsplash.com/500x300?AndhraPradesh",
+      "language": "Telugu",
+      "capital": "Amaravati",
+      "region": "South India",
+      "tourismPlaces": [
+        "Tirupati",
+        "Visakhapatnam",
+        "Vijayawada"
+      ]
+    },
+    {
+      "id": 21,
+      "stateName": "Bihar",
+      "population": 124799926,
+      "GDPRanking": 15,
+      "image": "https://source.unsplash.com/500x300?Bihar",
+      "language": "Hindi",
+      "capital": "Patna",
+      "region": "East India",
+      "tourismPlaces": [
+        "Bodh Gaya",
+        "Patna Sahib",
+        "Nalanda"
+      ]
+    },
+    {
+      "id": 22,
+      "stateName": "Gujarat",
+      "population": 63872399,
+      "GDPRanking": 3,
+      "image": "https://source.unsplash.com/500x300?Gujarat",
+      "language": "Gujarati",
+      "capital": "Gandhinagar",
+      "region": "West India",
+      "tourismPlaces": [
+        "Ahmedabad",
+        "Gir Forest National Park",
+        "Rann of Kutch"
+      ]
+    },
+    {
+      "id": 23,
+      "stateName": "Karnataka",
+      "population": 65798000,
+      "GDPRanking": 4,
+      "image": "https://source.unsplash.com/500x300?Karnataka",
+      "language": "Kannada",
+      "capital": "Bengaluru",
+      "region": "South India",
+      "tourismPlaces": [
+        "Mysuru",
+        "Hampi",
+        "Coorg"
+      ]
+    },
+    {
+      "id": 24,
+      "stateName": "Maharashtra",
+      "population": 123144223,
+      "GDPRanking": 1,
+      "image": "https://source.unsplash.com/500x300?Maharashtra",
+      "language": "Marathi",
+      "capital": "Mumbai",
+      "region": "West India",
+      "tourismPlaces": [
+        "Mumbai",
+        "Pune",
+        "Ajanta Caves"
+      ]
+    },
+    {
+      "id": 25,
+      "stateName": "Nagaland",
+      "population": 2165465,
+      "GDPRanking": 30,
+      "image": "https://source.unsplash.com/500x300?Nagaland",
+      "language": "English",
+      "capital": "Kohima",
+      "region": "North East India",
+      "tourismPlaces": [
+        "Kohima",
+        "Dimapur",
+        "Dzukou Valley"
+      ]
+    },
+    {
+      "id": 26,
+      "stateName": "Odisha",
+      "population": 43671000,
+      "GDPRanking": 14,
+      "image": "https://source.unsplash.com/500x300?Odisha",
+      "language": "Odia",
+      "capital": "Bhubaneswar",
+      "region": "East India",
+      "tourismPlaces": [
+        "Puri",
+        "Konark Sun Temple",
+        "Bhubaneswar"
+      ]
+    },
+    {
+      "id": 27,
+      "stateName": "Rajasthan",
+      "population": 77262239,
+      "GDPRanking": 7,
+      "image": "https://source.unsplash.com/500x300?Rajasthan",
+      "language": "Hindi",
+      "capital": "Jaipur",
+      "region": "North India",
+      "tourismPlaces": [
+        "Jaipur",
+        "Udaipur",
+        "Jodhpur"
+      ]
+    },
+    {
+      "id": 28,
+      "stateName": "Ladakh",
+      "population": 274000,
+      "GDPRanking": 36,
+      "image": "https://source.unsplash.com/500x300?Ladakh",
+      "language": "Ladakhi, Urdu, Hindi, English",
+      "capital": "Leh",
+      "region": "North India",
+      "tourismPlaces": [
+        "Pangong Lake",
+        "Nubra Valley",
+        "Thiksey Monastery"
+      ]
+    },
+    {
+      "id": 29,
+      "stateName": "Puducherry",
+      "population": 1506478,
+      "GDPRanking": 29,
+      "image": "https://source.unsplash.com/500x300?Puducherry",
+      "language": "Tamil, Malayalam, Telugu, French",
+      "capital": "Puducherry",
+      "region": "South India",
+      "tourismPlaces": [
+        "Paradise Beach",
+        "Auroville",
+        "Promenade Beach"
+      ]
+    },
+    {
+      "id": 30,
+      "stateName": "Delhi (National Capital Territory of Delhi)",
+      "population": 16787941,
+      "GDPRanking": 13,
+      "image": "https://source.unsplash.com/500x300?Delhi",
+      "language": "Hindi, English",
+      "capital": "New Delhi",
+      "region": "North India",
+      "tourismPlaces": [
+        "India Gate",
+        "Qutub Minar",
+        "Red Fort"
+      ]
+    },
+    {
+      "id": 31,
+      "stateName": "Lakshadweep",
+      "population": 73713,
+      "GDPRanking": 35,
+      "image": "https://source.unsplash.com/500x300?Lakshadweep",
+      "language": "Malayalam",
+      "capital": "Kavaratti",
+      "region": "South India",
+      "tourismPlaces": [
+        "Agatti Island",
+        "Bangaram Atoll",
+        "Kadmat Island"
+      ]
+    },
+    {
+      "id": 32,
+      "stateName": "Dadra and Nagar Haveli and Daman and Diu",
+      "population": 615724,
+      "GDPRanking": 34,
+      "image": "https://source.unsplash.com/500x300?Dadra",
+      "language": "Gujarati, Marathi, Konkani",
+      "capital": "Daman",
+      "region": "West India",
+      "tourismPlaces": [
+        "Daman Fort",
+        "Devka Beach",
+        "Moti Daman"
+      ]
+    },
+    {
+      "id": 33,
+      "stateName": "Chandigarh",
+      "population": 1179614,
+      "GDPRanking": 16,
+      "image": "https://source.unsplash.com/500x300?Chandigarh",
+      "language": "Punjabi, Hindi",
+      "capital": "Chandigarh",
+      "region": "North India",
+      "tourismPlaces": [
+        "Rock Garden",
+        "Sukhna Lake",
+        "Rose Garden"
+      ]
+    },
+    {
+      "id": 34,
+      "stateName": "Uttarakhand",
+      "population": 11141000,
+      "GDPRanking": 20,
+      "image": "https://source.unsplash.com/500x300?Uttarakhand",
+      "language": "Hindi",
+      "capital": "Dehradun",
+      "region": "North India",
+      "tourismPlaces": [
+        "Nainital",
+        "Mussoorie",
+        "Haridwar"
+      ]
+    },
+    {
+      "stateName": "Dhanbad",
+      "image": "https://i.ytimg.com/vi/e8TUymLCpDg/maxresdefault.jpg",
+      "capital": "Raanchi",
+      "population": 200000,
+      "language": "English",
+      "GDPRanking": 12,
+      "region": "Hindu",
+      "tourismPlaces": "Bokaro",
+      "id": 35
+    },
+    {
+      "stateName": "maharashtra",
+      "image": "data:image/jpeg;base64,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",
+      "capital": "mumbai",
+      "population": 15000,
+      "language": "marathi",
+      "GDPRanking": 2,
+      "region": "mumbai",
+      "tourismPlaces": "gurudwara",
+      "id": 39
+    }
+  ]
+}
